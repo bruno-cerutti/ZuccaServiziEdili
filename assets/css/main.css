@@ -1655,22 +1655,9 @@
 	}
 
 	header.special {
-		margin-bottom: 5em;
-		padding-top: 7em;
 		position: relative;
 		text-align: center;
 	}
-
-		header.special:before, header.special:after {
-			border-bottom: solid 1.5px;
-			border-top: solid 1.5px;
-			content: '';
-			height: 7px;
-			opacity: 0.1;
-			position: absolute;
-			top: 1.75em;
-			width: 43%;
-		}
 
 		header.special:before {
 			left: 0;
@@ -1681,7 +1668,7 @@
 		}
 
 		header.special h2 {
-			margin-bottom: 0;
+			margin-bottom: 0em;
 		}
 
 		header.special h2 + p {
@@ -1689,14 +1676,13 @@
 			padding-top: 1.5em;
 		}
 
+        header.special p {
+            margin-bottom: 0;
+        }
+
 		header.special .icon {
 			cursor: default;
-			height: 7em;
-			left: 0;
-			position: absolute;
-			text-align: center;
-			top: 1em;
-			width: 100%;
+            height: 10em;
 		}
 
 			header.special .icon:before {
@@ -2395,7 +2381,7 @@
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner.jpg");
+		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images2/banner.jpg");
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
@@ -2414,7 +2400,6 @@
 			-webkit-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
-			background: rgba(52, 27, 43, 0.5);
 			color: #fff;
 			display: inline-block;
 			opacity: 0;
@@ -2422,10 +2407,28 @@
 			text-align: center;
 		}
 
+#banner .inner .logo{
+    width: 40%;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+#banner .inner .logoZucca{
+    color: rgb(33,34,130);
+    display: inline;
+}
+
+#banner .inner .logoImpresaEdile{
+    color: rgb(224,0,27);
+    float: right;
+}
+
+#banner .inner .logoImpresaEdile span{
+    display: block;
+    text-align: justify;
+}
+
 			#banner .inner header {
 				display: inline-block;
-				border-bottom: solid 2px;
-				border-top: solid 2px;
 				margin: 0 0 2em 0;
 				padding: 3px 0 3px 0;
 			}
@@ -2446,6 +2449,7 @@
 				letter-spacing: 0.1em;
 				margin: 0;
 				text-transform: uppercase;
+                text-align: justify;
 			}
 
 				#banner .inner p a {
@@ -2493,7 +2497,7 @@
 	#cta {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../../images/banner.jpg");
+		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../../images2/banner.jpg");
 		background-position: top left, top right, top left, bottom center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
