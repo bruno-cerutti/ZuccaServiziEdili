@@ -2380,8 +2380,8 @@
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images2/banner_lara.jpg");
-		background-position: bottom left, bottom right, top left, top center;
+		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images2/IMG_8450.JPG");
+		background-position: bottom left, bottom right, top left, bottom center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
 		color: #fff;
@@ -2410,20 +2410,7 @@
     width: 50%;
 }
 
-#banner .inner .logoZucca{
-    color: rgb(33,34,130);
-    display: inline;
-}
 
-#banner .inner .logoImpresaEdile{
-    color: rgb(224,0,27);
-    float: right;
-}
-
-#banner .inner .logoImpresaEdile span{
-    display: block;
-    text-align: justify;
-}
 
 			#banner .inner header {
 				display: inline-block;
@@ -2495,12 +2482,12 @@
 	#cta {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../../images2/banner_lara.jpg");
+		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../../images2/IMG_8460.jpg");
 		background-position: top left, top right, top left, bottom center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
 		color: #fff;
-		padding: 5em;
+		padding: 15em;
 		text-align: center;
 	}
 
