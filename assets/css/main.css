@@ -2408,6 +2408,7 @@
 
 #banner .inner .logo{
     width: 50%;
+    background: rgba(255, 255, 255, 0.5);
 }
 
 
@@ -2483,7 +2484,7 @@
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
 		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../../images2/IMG_8460.jpg");
-		background-position: top left, top right, top left, bottom center;
+		background-position: top left, top right, top left, center center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
 		color: #fff;
@@ -2592,12 +2593,13 @@
 
 			#banner {
 				background-attachment: scroll;
+        		background-position: bottom left, bottom right, top left, center center;
 			}
 
 		/* CTA */
 
 			#cta {
-				padding: 4em;
+				padding: 10em;
 				background-attachment: scroll;
 			}
 
@@ -2679,7 +2681,7 @@
 
 			#cta {
 				background-size: 15em, 15em, auto, cover;
-				padding: 3em;
+				padding: 5em;
 			}
 
 	}
