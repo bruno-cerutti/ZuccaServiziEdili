@@ -1,0 +1,25 @@
+{
+  "name": "ZuccaServiziEdili",
+  "version": "1.0.0",
+  "description": "Sito Zucca Servizi Edili",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bruno-cerutti/ZuccaServiziEdili.git"
+  },
+  "author": "Bruno Cerutti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bruno-cerutti/ZuccaServiziEdili/issues"
+  },
+  "homepage": "https://github.com/bruno-cerutti/ZuccaServiziEdili#readme",
+  "devDependencies": {
+    "browser-sync": "^2.12.3",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "run-sequence": "^1.1.5"
+  }
+}
