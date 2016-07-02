@@ -10,10 +10,10 @@ gulp.task('browserSync', function() {
 });
 
 gulp.task('watch', ['browserSync'], function (){
-    gulp.watch('index.html', browserSync.reload);
-    gulp.watch('pages/*.html', browserSync.reload);
-    gulp.watch('assets/js/*.js', browserSync.reload);
-    gulp.watch('assets/css/*.css', browserSync.reload);
+    gulp.watch('Site/index.html', browserSync.reload);
+    gulp.watch('Site/pages/*.html', browserSync.reload);
+    gulp.watch('Site/assets/js/*.js', browserSync.reload);
+    gulp.watch('Site/assets/css/*.css', browserSync.reload);
 });
 
 gulp.task('fonts', function() {
