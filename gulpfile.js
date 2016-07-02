@@ -10,34 +10,34 @@ gulp.task('browserSync', function() {
 });
 
 gulp.task('watch', ['browserSync'], function (){
-    gulp.watch('index.html', browserSync.reload);
-    gulp.watch('pages/*.html', browserSync.reload);
-    gulp.watch('assets/js/*.js', browserSync.reload);
-    gulp.watch('assets/css/*.css', browserSync.reload);
+    gulp.watch('Site/index.html', browserSync.reload);
+    gulp.watch('Site/pages/*.html', browserSync.reload);
+    gulp.watch('Site/assets/js/*.js', browserSync.reload);
+    gulp.watch('Site/assets/css/*.css', browserSync.reload);
 });
 
 gulp.task('fonts', function() {
-  return gulp.src('assets/fonts/**/*')
+  return gulp.src('Site/assets/fonts/**/*')
   .pipe(gulp.dest('dist/assets/fonts'))
 });
 
 gulp.task('css', function() {
-  return gulp.src('assets/css/**/*')
+  return gulp.src('Site/assets/css/**/*')
   .pipe(gulp.dest('dist/assets/css'))
 });
 
 gulp.task('js', function() {
-  return gulp.src('assets/js/**/*')
+  return gulp.src('Site/assets/js/**/*')
   .pipe(gulp.dest('dist/assets/js'))
 });
 
 gulp.task('img', function() {
-  return gulp.src('assets/images2/**/*')
+  return gulp.src('Site/assets/images2/**/*')
   .pipe(gulp.dest('dist/assets/images2'))
 });
 
 gulp.task('html', function() {
-  return gulp.src('index.html')
+  return gulp.src('Site/index.html')
   .pipe(gulp.dest('dist'))
 });
 
