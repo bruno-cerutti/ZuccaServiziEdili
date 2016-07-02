@@ -4,16 +4,16 @@ var browserSync = require('browser-sync').create();
 gulp.task('browserSync', function() {
   browserSync.init({
     server: {
-      baseDir: ''
+      baseDir: 'Site'
     },
   })
 });
 
 gulp.task('watch', ['browserSync'], function (){
-    gulp.watch('Site/index.html', browserSync.reload);
-    gulp.watch('Site/pages/*.html', browserSync.reload);
-    gulp.watch('Site/assets/js/*.js', browserSync.reload);
-    gulp.watch('Site/assets/css/*.css', browserSync.reload);
+    gulp.watch('index.html', browserSync.reload);
+    gulp.watch('pages/*.html', browserSync.reload);
+    gulp.watch('assets/js/*.js', browserSync.reload);
+    gulp.watch('assets/css/*.css', browserSync.reload);
 });
 
 gulp.task('fonts', function() {
